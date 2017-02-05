@@ -15,6 +15,8 @@
 		8072042B1E27C2830051C676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807204291E27C2830051C676 /* LaunchScreen.storyboard */; };
 		807204361E27C2830051C676 /* UIScrollViewPagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 807204351E27C2830051C676 /* UIScrollViewPagingTests.m */; };
 		807204411E27C2830051C676 /* UIScrollViewPagingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 807204401E27C2830051C676 /* UIScrollViewPagingUITests.m */; };
+		8096A9741E471F1C00D2C3BC /* XHPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8096A9721E471F1C00D2C3BC /* XHPageView.m */; };
+		8096A9751E471F1C00D2C3BC /* XHPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8096A9731E471F1C00D2C3BC /* XHPageView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		8072043C1E27C2830051C676 /* UIScrollViewPagingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollViewPagingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		807204401E27C2830051C676 /* UIScrollViewPagingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewPagingUITests.m; sourceTree = "<group>"; };
 		807204421E27C2830051C676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8096A9711E471F1C00D2C3BC /* XHPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPageView.h; sourceTree = "<group>"; };
+		8096A9721E471F1C00D2C3BC /* XHPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPageView.m; sourceTree = "<group>"; };
+		8096A9731E471F1C00D2C3BC /* XHPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHPageView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,7 @@
 				8072041F1E27C2830051C676 /* AppDelegate.m */,
 				807204211E27C2830051C676 /* ViewController.h */,
 				807204221E27C2830051C676 /* ViewController.m */,
+				8096A9701E471F1C00D2C3BC /* XHPageView */,
 				807204241E27C2830051C676 /* Main.storyboard */,
 				807204271E27C2830051C676 /* Assets.xcassets */,
 				807204291E27C2830051C676 /* LaunchScreen.storyboard */,
@@ -138,6 +144,16 @@
 				807204421E27C2830051C676 /* Info.plist */,
 			);
 			path = UIScrollViewPagingUITests;
+			sourceTree = "<group>";
+		};
+		8096A9701E471F1C00D2C3BC /* XHPageView */ = {
+			isa = PBXGroup;
+			children = (
+				8096A9711E471F1C00D2C3BC /* XHPageView.h */,
+				8096A9721E471F1C00D2C3BC /* XHPageView.m */,
+				8096A9731E471F1C00D2C3BC /* XHPageView.xib */,
+			);
+			path = XHPageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +262,7 @@
 				8072042B1E27C2830051C676 /* LaunchScreen.storyboard in Resources */,
 				807204281E27C2830051C676 /* Assets.xcassets in Resources */,
 				807204261E27C2830051C676 /* Main.storyboard in Resources */,
+				8096A9751E471F1C00D2C3BC /* XHPageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +290,7 @@
 				807204231E27C2830051C676 /* ViewController.m in Sources */,
 				807204201E27C2830051C676 /* AppDelegate.m in Sources */,
 				8072041D1E27C2830051C676 /* main.m in Sources */,
+				8096A9741E471F1C00D2C3BC /* XHPageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +516,7 @@
 				807204471E27C2830051C676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		807204481E27C2830051C676 /* Build configuration list for PBXNativeTarget "UIScrollViewPagingTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				8072044A1E27C2830051C676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8072044B1E27C2830051C676 /* Build configuration list for PBXNativeTarget "UIScrollViewPagingUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				8072044D1E27C2830051C676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
